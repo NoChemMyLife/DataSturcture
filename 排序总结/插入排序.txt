@@ -1,0 +1,16 @@
+  //≤Â»Î≈≈–Ú 
+	  public void insertSort(){
+		  int tem= 0 ;
+		  for(int i = 1;i < array.length;i++){
+			  tem = array[i];
+			  int j = i;
+			  while(j>0 && array[j-1] >= tem){
+				  array[j] = array[j-1];
+				  j--;
+			  }
+			  array[j] = tem;
+			  
+			  
+		  }
+		  
+	  }
